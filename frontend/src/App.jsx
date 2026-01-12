@@ -16,7 +16,7 @@ const translations = {
   en: {
     languageToggle: "EN / RU",
     eyebrow: "No-Storage Streamer",
-    title: "Retro Pop Video Downloader",
+    title: "Video Downloader",
     description: "Paste a link from YouTube, TikTok, or any yt-dlp supported source.",
     pastePlaceholder: "Paste a link...",
     video: "Video",
@@ -39,7 +39,7 @@ const translations = {
     recentDownloads: "Recent Downloads",
     tapToReload: "Tap to reload",
     buyMeCoffee: "Buy Me a Coffee",
-    supportDonate: "SUPPORT / DONATE",
+    supportDonate: "ЖМИ ЕСЛИ НЕ ГЕЙ",
     footer:
       "Streams are proxied directly from the source. No files are stored on the server.",
     errorPasteUrl: "Please paste a video URL.",
