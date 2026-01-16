@@ -239,17 +239,6 @@ export default function App() {
       />
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-4 py-12">
         <div className="relative w-full rounded-2xl border-2 border-ink bg-butter p-6 shadow-brutalPop md:p-10">
-          <div className="absolute right-6 top-6">
-            <button
-              type="button"
-              onClick={() => setLanguage((prev) => (prev === "en" ? "ru" : "en"))}
-              className="flex items-center gap-2 rounded-lg border-2 border-ink bg-cream px-3 py-2 text-xs font-black uppercase text-ink shadow-brutal transition active:translate-x-1 active:translate-y-1 active:shadow-none"
-            >
-              <span className={language === "en" ? "text-pop" : ""}>EN</span>
-              <span>/</span>
-              <span className={language === "ru" ? "text-pop" : ""}>RU</span>
-            </button>
-          </div>
           <div className="mb-6 text-center">
             <p className="text-xs font-bold uppercase tracking-[0.4em] text-pop">
               {t("eyebrow")}
